@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:rgb(135, 206, 235);
+}
+p:first-of-type{
+    color: white;
+    background-color: black;
+}
+
+p:nth-of-type(2){
+    color: black;
+}
+
+p:last-of-type{
+    color: red;
+}
+ul{
+	background-color:gray;
+}
+li{
+	width:50%;
+	padding:10px;
+}
+.w{
+	background-color:white;
+}
+#one, #five{
+	font-size:22px;
+}
+#five,#three{
+	background-color:pink;
+}
